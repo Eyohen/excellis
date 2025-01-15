@@ -149,6 +149,11 @@ const Navbar = () => {
             <Link href="/about" className={getLinkStyles('/about')}>
               About
             </Link>
+            <Link href="/client"
+             className={getLinkStyles('/client')}
+             >
+              Client
+            </Link>
             <Link href="/team"
              className={getLinkStyles('/team')}
              >
