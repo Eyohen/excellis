@@ -78,8 +78,7 @@ export default function Testimonial() {
               alt="Umoh Effiom"
               className="object-cover"
               fill
-              className=""
-            //   sizes="(max-width: 96px) 100vw, 96px"
+              sizes="(max-width: 96px) 100vw, 96px"
               priority
             />
           </div>
