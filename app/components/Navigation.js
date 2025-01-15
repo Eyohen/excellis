@@ -236,6 +236,22 @@ const Navbar = () => {
             About
           </Link>
           <Link
+            href="/team"
+            onClick={toggleMenu}
+            className="block px-3 py-2 rounded-md text-base text-white
+                     hover:opacity-80 transition-opacity duration-300"
+          >
+            Team
+          </Link>
+          <Link
+            href="/client"
+            onClick={toggleMenu}
+            className="block px-3 py-2 rounded-md text-base text-white
+                     hover:opacity-80 transition-opacity duration-300"
+          >
+            Client
+          </Link>
+          <Link
             href="/services"
             onClick={toggleMenu}
             className="block px-3 py-2 rounded-md text-base text-white
