@@ -5,7 +5,7 @@ export default function Testimonial() {
       <section id="testimonial" className='min-h-screen flex relative'>
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
     style={{
-        backgroundImage:"url('/testimonials.png')",
+        backgroundImage:"url('/testbackground.png')",
     }}
     >
      </div>

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import okoye from '../../public/okoye.jpg'
 import ewemade from '../../public/ewemade.jpg'
 
-export default function OwnerSection() {
+export default function Team() {
     return (
         <section id="about" className="min-h-screen flex relative">
             {/* background image */}
@@ -59,7 +59,9 @@ export default function OwnerSection() {
                         </div>
                     </div>
                 </div>
+                <div className='mb-12'></div>
             </div>
+       
         </section>
     );
 }

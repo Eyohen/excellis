@@ -12,12 +12,7 @@ export default function Home() {
   return (
     <main className=""> 
       <HeroSection />
-      <AboutSection />
-      <OwnerSection />
-      <ServicesSection />
-      <ProjectManagement />
-      <TelecomInfrastructure />
-      <IndustrialInfrastructure />
+
       <div className='min-h-screen flex relative'>
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
     style={{
@@ -54,7 +49,7 @@ export default function Home() {
      </div>
      </div>
     
-      <Testimonial />
+
 
       <div className='mb-12'></div>
     </main>
