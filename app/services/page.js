@@ -320,6 +320,44 @@ export default function Services() {
         </div>
       </div>
     </section>
+
+
+    {/* images  */}
+    <div className='min-h-screen flex relative'>
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+    style={{
+        backgroundImage:"url('/floatingbriefcase.png')",
+    }}
+    >
+     </div>
+     </div>
+
+     <div className='min-h-screen flex relative'>
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+    style={{
+        backgroundImage:"url('/skypipes3.png')",
+    }}
+    >
+     </div>
+     </div>
+
+     <div className='min-h-screen flex relative'>
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+    style={{
+        backgroundImage:"url('/foundation1.png')",
+    }}
+    >
+     </div>
+     </div>
+
+     <div className='min-h-screen flex relative'>
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+    style={{
+        backgroundImage:"url('/foundation3.png')",
+    }}
+    >
+     </div>
+     </div>
      </div>
   );
 }

@@ -4,7 +4,7 @@ import ewemade from '../../public/ewemade.jpg'
 
 export default function Team() {
     return (
-        <section id="about" className="min-h-screen flex relative">
+        <section className="min-h-screen flex relative">
             {/* background image */}
             <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
