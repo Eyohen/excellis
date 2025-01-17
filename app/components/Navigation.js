@@ -26,12 +26,12 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <Image
+            {/* <Image
                src={logo}
                alt="Construction scaffolding setup"
                className="h-10 w-auto object-cover"
                priority
-             />
+             /> */}
           </Link>
 
           {/* Desktop Navigation */}
