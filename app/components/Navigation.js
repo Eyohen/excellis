@@ -42,20 +42,21 @@ const Navbar = () => {
             <Link href="/about" className={getLinkStyles('/about')}>
               About
             </Link>
+            <Link href="/services"
+             className={getLinkStyles('/services')}
+             >
+              Our Services
+            </Link>
+            <Link href="/testimonial" className={getLinkStyles('/testimonial')}>
+              Testimonial
+            </Link>
             <Link href="/client"
              className={getLinkStyles('/client')}
              >
               Client
             </Link>
           
-            <Link href="/services"
-             className={getLinkStyles('/services')}
-             >
-              Services
-            </Link>
-            <Link href="/testimonial" className={getLinkStyles('/testimonial')}>
-              Testimonial
-            </Link>
+
           </div>
 
           {/* Mobile Menu Button */}
@@ -124,15 +125,6 @@ const Navbar = () => {
           >
             About
           </Link>
-
-          <Link
-            href="/client"
-            onClick={toggleMenu}
-            className="block px-3 py-2 rounded-md text-base text-white
-                     hover:opacity-80 transition-opacity duration-300"
-          >
-            Client
-          </Link>
           <Link
             href="/services"
             onClick={toggleMenu}
@@ -149,6 +141,16 @@ const Navbar = () => {
           >
             Testimonial
           </Link>
+
+          <Link
+            href="/client"
+            onClick={toggleMenu}
+            className="block px-3 py-2 rounded-md text-base text-white
+                     hover:opacity-80 transition-opacity duration-300"
+          >
+            Client
+          </Link>
+        
         </div>
       </div>
     </nav>

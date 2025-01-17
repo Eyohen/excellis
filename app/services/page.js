@@ -323,14 +323,6 @@ export default function Services() {
 
 
     {/* images  */}
-    <div className='min-h-screen flex relative'>
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-    style={{
-        backgroundImage:"url('/floatingbriefcase.png')",
-    }}
-    >
-     </div>
-     </div>
 
      <div className='min-h-screen flex relative'>
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
@@ -354,6 +346,15 @@ export default function Services() {
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
     style={{
         backgroundImage:"url('/foundation3.png')",
+    }}
+    >
+     </div>
+     </div>
+
+     <div className='min-h-screen flex relative'>
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+    style={{
+        backgroundImage:"url('/floatingbriefcase.png')",
     }}
     >
      </div>
