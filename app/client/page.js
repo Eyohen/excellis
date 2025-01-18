@@ -1,81 +1,3 @@
-// import Image from "next/image";
-// import logo1 from "../../public/logo1.png";
-// import logo2 from "../../public/logo2.png";
-// import logo3 from "../../public/logo3.png";
-// import logo4 from "../../public/logo4.png";
-// import logo5 from "../../public/logo5.png";
-// import logo6 from "../../public/logo6.png";
-// import logo7 from "../../public/logo7.png";
-// import logo8 from "../../public/logo8.png";
-// import logo9 from "../../public/logo9.png";
-
-// export default function Client() {
-//   return (
-//     <section className="p-2 md:p-16 bg-[#191970]">
-//       <div className="py-12 px-48 bg-gray-50">
-
-//         <p className="text-5xl font-bold mt-9 text-center">Trusted By</p>
-//         <Image
-//           src={logo1}
-//           alt="Construction scaffolding setup"
-//           className="h-28 w-auto object-cover"
-//           priority
-//         />
-
-//         <Image
-//           src={logo2}
-//           alt="Construction scaffolding setup"
-//           className="h-28 w-auto object-cover"
-//           priority
-//         />
-//         <Image
-//           src={logo3}
-//           alt="Construction scaffolding setup"
-//           className="h-28 w-auto object-cover"
-//           priority
-//         />
-//         <Image
-//           src={logo4}
-//           alt="Construction scaffolding setup"
-//           className="h-28 w-auto object-cover"
-//           priority
-//         />
-//         <Image
-//           src={logo5}
-//           alt="Construction scaffolding setup"
-//           className="h-28 w-auto object-cover"
-//           priority
-//         />
-//         <Image
-//           src={logo6}
-//           alt="Construction scaffolding setup"
-//           className="h-28 w-auto object-cover"
-//           priority
-//         />
-//         <Image
-//           src={logo7}
-//           alt="Construction scaffolding setup"
-//           className="h-28 w-auto object-cover"
-//           priority
-//         />
-//         <Image
-//           src={logo8}
-//           alt="Construction scaffolding setup"
-//           className="h-28 w-auto object-cover"
-//           priority
-//         />
-//         <Image
-//           src={logo9}
-//           alt="Construction scaffolding setup"
-//           className="h-28 w-auto object-cover"
-//           priority
-//         />
-//       </div>
-//     </section>
-//   );
-// }
-
-
 import Image from "next/image";
 import logo1 from "../../public/logo1.png";
 import logo2 from "../../public/logo2.png";
@@ -86,6 +8,7 @@ import logo6 from "../../public/logo6.png";
 import logo7 from "../../public/logo7.png";
 import logo8 from "../../public/logo8.png";
 import logo9 from "../../public/logo9.png";
+import logo10 from "../../public/logo10.png";
 
 const logos = [
   { src: logo1, alt: "Client Logo 1" },
@@ -97,6 +20,7 @@ const logos = [
   { src: logo7, alt: "Client Logo 7" },
   { src: logo8, alt: "Client Logo 8" },
   { src: logo9, alt: "Client Logo 9" },
+  { src: logo10, alt: "Client Logo 10" },
 ];
 
 export default function Client() {
