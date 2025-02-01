@@ -9,6 +9,8 @@ import logo7 from "../../public/logo7.png";
 import logo8 from "../../public/logo8.png";
 import logo9 from "../../public/logo9.png";
 import logo10 from "../../public/logo10.png";
+import logo11 from "../../public/atclogo.jpg";
+import logo12 from "../../public/swaplogo.jpg";
 
 const logos = [
   { src: logo1, alt: "Client Logo 1" },
@@ -20,7 +22,9 @@ const logos = [
   { src: logo7, alt: "Client Logo 7" },
   { src: logo8, alt: "Client Logo 8" },
   { src: logo9, alt: "Client Logo 9" },
-  { src: logo10, alt: "Client Logo 10" },
+  { src: logo10,alt: "Client Logo 10"},
+  { src: logo11, alt: "Client Logo 11" },
+  { src: logo12,alt: "Client Logo 12"},
 ];
 
 export default function Client() {
