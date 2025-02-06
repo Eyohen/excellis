@@ -69,7 +69,7 @@ export default function About() {
             </div>
         </section>
 
-<section className="min-h-screen flex relative mt-9">
+<section className="min-h-screen flex relative">
 {/* background image */}
 <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
     style={{
